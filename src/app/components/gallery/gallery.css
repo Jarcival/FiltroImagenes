@@ -1,0 +1,8 @@
+.galeria {
+  display: flex;
+  gap: 10px;
+}
+
+.imagen {
+  text-align: center;
+}

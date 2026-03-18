@@ -1,0 +1,19 @@
+<!-- Mostrar imagenes de la categoria seleccionada -->
+ <p>Selecciona las imagenes a ver:</p>
+<div>
+  <!-- Botones para filtrar -->
+  <button (click)="filtrarPorCat('todas')">Todas</button>
+  <button (click)="filtrarPorCat('naturaleza')">Naturaleza</button>
+  <button (click)="filtrarPorCat('animales')">Animales</button>
+  <button (click)="filtrarPorCat('ciudad')">Ciudad</button>
+</div>
+
+<hr>
+
+<!-- Galeria de imagenes -->
+<div class="galeria">
+  <div *ngFor="let img of imagSelec" class="imagen">
+    <img [src]="img.url" [alt]="img.categoria">
+    <p>{{ img.categoria }}</p>
+  </div>
+</div>
