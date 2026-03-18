@@ -14,12 +14,16 @@ export class Gallery {
     { url :'https://picsum.photos/200/300' , categoria: 'naturaleza'},
     { url :'https://picsum.photos/200/300' , categoria: 'animales'},
     { url :'https://picsum.photos/200/300' , categoria: 'ciudad'},
+    { url :'https://picsum.photos/200/300' , categoria: 'ciudad'},
+    { url :'https://picsum.photos/200/300' , categoria: 'ciudad'},
   ]
   //Variable para almacenar las imagenes seleccionadas
   imagSelec= [
     { url :'https://picsum.photos/200/300' , categoria: 'naturaleza'},
     { url :'https://picsum.photos/200/300' , categoria: 'animales'},
     { url :'https://picsum.photos/200/300' , categoria: 'ciudad' },
+    { url :'https://picsum.photos/200/300' , categoria: 'ciudad'},
+    { url :'https://picsum.photos/200/300' , categoria: 'ciudad'},
     
   ]
 
